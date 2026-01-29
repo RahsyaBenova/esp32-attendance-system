@@ -4,11 +4,12 @@
 #include <HTTPClient.h>
 
 // --- Config ---
-const char* ssid = "YOUR_WIFI_SSID";
-const char* password = "YOUR_WIFI_PASSWORD";
+// make sure you have same SSID and Password with the laptop wifi
+const char* ssid = "OrangGantengPekanbaru";
+const char* password = "12345678";
 
-// REPLACE with your computer's IP address (keep the /attendance/insert.php part)
-const char* serverName = "http://192.168.1.5/attendance/insert.php";
+// REPLACE with your computer's IP address, buka wifi -> nama wifi -> info -> IPv4
+const char* serverName = "http://[{YOUR_IP_ADDRESS}]/attendance/api.php";
 
 // --- RFID Pins ---
 #define SS_PIN  5
